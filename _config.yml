@@ -12,3 +12,7 @@ github_username:  jiachaosun
 markdown: kramdown
 
 highlighter: rouge
+
+encoding: utf-8
+
+timezone: Asia/Shanghai
