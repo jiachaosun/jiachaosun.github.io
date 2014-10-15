@@ -14,7 +14,9 @@ categories: language R
 
 ![r-1-1.png](/asserts/imgs/r-1-1.png)
 
-##2.特别语法
+##2.向量
+
+R语言中的向量就是一组值的列表
 
 {% highlight R %}
 #创建向量
@@ -28,4 +30,27 @@ categories: language R
 #顺序数值向量
 > 1:13
  [1]  1  2  3  4  5  6  7  8  9 10 11 12 13
+ 
+#向量的访问
+> sentence <- c('walk', 'the', 'plank')
+> sentence[3]
+[1] "plank"
+
+#向量的名字
+> ranks <- 1:3
+> names(ranks)
+> names(ranks) <- c("第一","第二","第三")
+> ranks
+第一 第二 第三 
+ 1    2    3
+
+#绘制图形
+> barplot(ranks)
+
 {% endhighlight %}
+
+绘制向量图形1，可见用R语言来画图非常方便！
+
+![r-2-1.png](/asserts/imgs/r-2-1.png)
+
+##3.矩阵
