@@ -44,13 +44,23 @@ R语言中的向量就是一组值的列表
 第一 第二 第三 
  1    2    3
 
-#绘制图形
+#绘制向量图形1,见下图
 > barplot(ranks)
 
+#向量相加
+> vv2 <- 100:102
+> ranks + vv2
+第一 第二 第三 
+ 101  103  105
+ 
+#向量比较，比较的是向量中的每一个值
+> comparevv1 <- c(1,3,3)
+> ranks == comparevv1
+ 第一  第二  第三 
+ TRUE FALSE  TRUE 
 {% endhighlight %}
 
 绘制向量图形1，可见用R语言来画图非常方便！
 
 ![r-2-1.png](/asserts/imgs/r-2-1.png)
 
-##3.矩阵
