@@ -14,7 +14,7 @@ categories: mahout
 
 从github克隆代码后，使用maven命令编译打包。
 
-{% highlight Bash shell scripts %}
+{% highlight ruby %}
 git clone https://github.com/apache/mahout.git
 {% endhighlight %}
 
@@ -36,7 +36,7 @@ Mahout目前最新版本是0.9，官方预编译的版本中只兼容了Hadoop 1
 
 编译命令如下：
 
-{% highlight bash %}
+{% highlight ruby %}
 mvn -DskipTests=true clean package
 {% endhighlight %}
 
@@ -46,7 +46,7 @@ mvn -DskipTests=true clean package
 
 之后再运行就没问题了。
 
-{% highlight bash %}
+{% highlight ruby %}
 mahout recommenditembased -s SIMILARITY_LOGLIKELIHOOD -i \
 /path/to/input/file -o /path/to/desired/output --numRecommendations 25
 {% endhighlight %}
