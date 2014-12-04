@@ -14,7 +14,7 @@ categories: mahout
 
 从github克隆代码后，使用maven命令编译打包。
 
-{% highlight bash %}
+{% highlight Bash shell scripts %}
 git clone https://github.com/apache/mahout.git
 {% endhighlight %}
 
