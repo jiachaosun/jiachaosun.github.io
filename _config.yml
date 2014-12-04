@@ -1,8 +1,8 @@
 # Site settings
-title: 孙小超 | 大数据
+title: jiachaosun的专栏
 email: jiachaosun@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  大数据|机器学习|数据挖掘|不断学习
+  大数据|机器学习|数据挖掘|分布式计算|竞价广告|不断学习
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.sunjiachao.cn" # the base hostname & protocol for your site
 twitter_username: Null
@@ -11,7 +11,7 @@ github_username:  jiachaosun
 # Build settings
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 encoding: utf-8
 
