@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mahout学习笔记（二）----简介、示例
+title: mahout hello world + 体系介绍
 categories: mahout
 ---
 
@@ -26,3 +26,5 @@ cf.taste下主要对应的是 mahout 中的协同过滤算法实现，这些中�
 
 ![123](/asserts/imgs/mahout/m-2-3.png)
 
+
+未完待续。。。

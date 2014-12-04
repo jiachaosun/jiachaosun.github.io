@@ -54,3 +54,4 @@ mahout recommenditembased -s SIMILARITY_LOGLIKELIHOOD -i \
 ![123](/asserts/imgs/mahout/1/20141204160821734.png)
 
 可以从命令行中看到，mahout已经运行了分布式的推荐算法。
+
