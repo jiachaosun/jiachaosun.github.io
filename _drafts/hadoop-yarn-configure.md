@@ -4,9 +4,8 @@ title: Hadoop 2.x Yarn 配置优化
 categories: hadoop yarn
 ---
 
-目前集群中节点的配置是 16 cores + 32 GB 内存，使用默认配置的hadoop集群在运行一些大任务时候经常报错，错误内容各不相同。
-
-经过一段时间的调优，发现首先要修改的是 nodemanager 最大内存.
+目前集群中节点的配置是 (16 cores + 32 GB)*40 ，使用默认配置的hadoop集群在运行一些大任务时候经常报内存溢出，异常各不相同。
+经过一段时间的调试，发现主要需要对内存这一块进行一些参数调整，首先要修改的是 nodemanager 最大内存。
 
 yarn-site.xml
 
