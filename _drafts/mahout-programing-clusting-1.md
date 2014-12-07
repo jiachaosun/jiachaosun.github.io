@@ -4,15 +4,12 @@ title: Mahout Clustering 聚类
 categories: hadoop mahout
 ---
 
-Mahout中有多种聚类算法实现，如Kmeans、fuzzy Kmeans、canopy等。
-
-### 一、输入数据
-
-mahout中聚类算法的输入格式是有要求的，需要一种称为SequenceFile格式的二进制文件。
-
+Mahout中有多种聚类算法实现，如Kmeans、fuzzy Kmeans、canopy等，聚类算法的输入格式是有要求的，需要一种称为SequenceFile格式的二进制文件。
 这是一种Hadoop文件格式，详细的说明在 http://hadoop.apache.org/docs/current/api/org/apache/hadoop/io/SequenceFile.html 。
 
 创建、读取和写入SequenceFile非常方便，使用Hadoop相关的IO API即可（SequenceFile.Writer, SequenceFile.Reader and SequenceFile.Sorter）。
+
+### 一、输入数据
 
 我们根据MIA中的例子来看下，很简单的x,y坐标点数据二维数组，第一步是讲输入数据变成vector格式的向量。
 
