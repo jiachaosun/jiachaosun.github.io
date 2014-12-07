@@ -24,6 +24,8 @@ categories: maths dataming
 在一堆x-y坐标点的数据中，用简单的欧式距离就可以计算出它们之间的距离。
 而在复杂的文本分类中就需要许多前期预处理工作，也要使用稍微复杂一点的距离测度----余弦。
 
+![123](/asserts/imgs/dataming-similarity/QQ截图20141207181406.png)
+
 三、常用相似度距离公式
 
 1.欧式距离公式（Euclidian distance）
