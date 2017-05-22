@@ -1,18 +1,24 @@
-# Site settings
 title: jiachaosun的专栏
+author: jiachaosun
 email: jiachaosun@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   大数据|机器学习|数据挖掘|分布式计算|竞价广告|不断学习
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.sunjiachao.cn" # the base hostname & protocol for your site
-twitter_username: Null
-github_username:  Null
+
+github_username:  jiachaosun
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
 
 # Build settings
 markdown: kramdown
-
-highlighter: pygments
-
-encoding: utf-8
-
-timezone: Asia/Shanghai
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
